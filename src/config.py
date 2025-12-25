@@ -23,6 +23,12 @@ IMAGE_ZONES: Dict[str, List[ZoneConfig]] = {
     'shelf_empty_2.jpg': [
         ZoneConfig(name="empty_zone", box=(0, 0, 740, 493)),
     ],
+    'shelf_full_3.jpg': [
+        ZoneConfig(name="full_zone", box=(0, 0, 157, 148)),
+    ],
+    'shelf_empty_3.jpg': [
+        ZoneConfig(name="empty_zone", box=(0, 0, 181, 148)),
+    ],
 }
 
 PAVILIONS = {
