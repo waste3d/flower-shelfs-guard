@@ -6,6 +6,10 @@ class ZoneConfig:
     name: str
     box: Tuple[int, int, int, int] # (x1, y1, x2, y2)
 
+@dataclass
+class Settings:
+    bot_token: str
+
 IMAGE_ZONES: Dict[str, List[ZoneConfig]] = {
     'shelf_full_1.jpg': [
         ZoneConfig(name="full_zone", box=(0, 0, 183, 275)),
@@ -19,4 +23,11 @@ IMAGE_ZONES: Dict[str, List[ZoneConfig]] = {
     'shelf_empty_2.jpg': [
         ZoneConfig(name="empty_zone", box=(0, 0, 740, 493)),
     ],
+}
+
+PAVILIONS = {
+    1: "Карусель",
+    2: "Пятёрочка",
+    3: "Таллин",
+    4: "Якорь",
 }
