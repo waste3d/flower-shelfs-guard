@@ -1,0 +1,5 @@
+orig_image,zone_name,zone_image,label
+shelf_full_1.jpg,full_zone,shelf_full_1_full_zone.jpg,full
+shelf_full_2.jpg,full_zone,shelf_full_2_full_zone.jpg,full
+shelf_empty_1.jpg,empty_zone,shelf_empty_1_empty_zone.jpg,empty
+shelf_empty_2.jpg,empty_zone,shelf_empty_2_empty_zone.jpg,empty
